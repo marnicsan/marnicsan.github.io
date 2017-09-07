@@ -42,7 +42,7 @@ li{
 .links a{
   text-decoration:none;
   font-weight: bold;
-  color: #666
+  color: #666;
 }
 
 .main-title a:hover{
@@ -116,33 +116,6 @@ article{
 	border-bottom: 3px solid tomato;
 }
 
-.flex-footer{
-	display:flex;
-	align-items:center;
-	justify-content: space-between;
-	height:20px;
-	padding:20px;
-	background: linear-gradient(silver,#FDEEF4);
-}
-
-.red-social-link{
-	text-decoration: none;
-	color:#333;
-}	
-
-.red-social-icon{
-	margin-left:10px;
-}
-
-.red-social-link .fa{
-	margin-right:15px;
-	font-size:30px;
-	transition: all 2s ease;
-}
-.red-social-link .fa:hover{
-	transform: scale(1.8);
-}
-
 .html{
 	background-image: url("../images/html5.png");
 	background-repeat: no-repeat;
@@ -177,6 +150,39 @@ article{
 	background-image: url("../images/mysql.png");
 	background-repeat: no-repeat;
 	background-position: center center
+}
+
+.flex-footer{
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	height:20px;
+	padding:20px;
+	background: linear-gradient(silver,#FDEEF4);
+}
+
+.flex-footer p{
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: tomato;
+}
+
+.red-social-link{
+	text-decoration: none;
+	color:tomato;
+}	
+
+.red-social-icon{
+	margin-left:10px;
+}
+
+.red-social-link .fa{
+	margin-right:15px;
+	font-size:30px;
+	transition: all 2s ease;
+}
+.red-social-link .fa:hover{
+	transform: scale(1.8);
 }
 
 .fa-spinner{
