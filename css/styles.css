@@ -111,9 +111,9 @@ section{
 }
 
 article{
-	height:200px;
+	height:225px;
 	width:300px;
-	border: 3px solid tomato;
+	border-bottom: 3px solid tomato;
 }
 
 .flex-footer{
@@ -127,8 +127,68 @@ article{
 
 .red-social-link{
 	text-decoration: none;
+	color:#333;
 }	
 
 .red-social-icon{
 	margin-left:10px;
+}
+
+.red-social-link .fa{
+	margin-right:15px;
+	font-size:30px;
+	transition: all 2s ease;
+}
+.red-social-link .fa:hover{
+	transform: scale(1.8);
+}
+
+.html{
+	background-image: url("../images/html5.png");
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+.css{
+	background-image: url("../images/css3.png");
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+.js{
+	background-image: url("../images/js.png");
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+.jquery{
+	background-image: url("../images/jquery.png");
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+.java{
+	background-image: url("../images/java.png");
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+.mysql{
+	background-image: url("../images/mysql.png");
+	background-repeat: no-repeat;
+	background-position: center center
+}
+
+.fa-spinner{
+	font-size:200px;
+	animation-name: animate;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animate{
+	from{
+		transition: all 0s ease;
+		transform: rotate(360deg);
+	}
 }
