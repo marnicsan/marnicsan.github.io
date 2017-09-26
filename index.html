@@ -1,66 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>Mi Portfolio</title>
-	<link href="css/reset.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/vendor/font-awesome.css">
-	<link href="css/styles.css" rel="stylesheet">
-</head>
-<body>
-	<header>
-		<nav class="nav-flex-container" id="inicio">
-  		<div class="main-title">
-  			<a href="#">MS - Design & Development</a>
-  		</div>
-  		<ul>
-		    <li class="links"><a href="#sobreMi">Sobre mí</a></li>
-		    <li class="links"><a href="#tecnologias">Proyectos</a></li>
-		    <li class="links"><a href="#proyectos">Clientes</a></li>
-		    <li class="links"><a href="#contacto">Contacto</a></li>
-		  </ul>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mi Portfolio</title>
+		<link href="vendor/css/font-awesome.css" rel="stylesheet">
+		<link href="vendor/css/bootstrap.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top mi-navbar">
+			<div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+		      		</button>
+			      	<a class="navbar-brand main-title" href="#">MS - Design & Development</a>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    	<ul class="nav navbar-nav navbar-right">
+			        	<li class="links"><a href="#sobreMi">Sobre mí</a></li>
+					    <li class="links"><a href="#tecnologias">Proyectos</a></li>
+					    <li class="links"><a href="#proyectos">Clientes</a></li>
+					    <li class="links"><a href="#contacto">Contacto</a></li>
+			      	</ul>
+			    </div><!-- /.navbar-collapse -->
+		  	</div><!-- /.container-fluid -->
 		</nav>
-	</header>	
-	<section id="sobreMi" class="seccion-pri">
-		<h1>Martín Santi</h1>
-		<div>
-			<img src="http://placehold.it/300x300" alt=" electronicos"/>
-		</div>
-		<p>
-			Soy Martín. Buenos Aires, Argentina. 29 años. Desarrollador Java. A continuación te presento algunos de mis proyectos.
-		</p>
-		</article>
-	</section>
-	<section id="tecnologias" class="seccion-sec">
-		<h2>TECNOLOGIAS</h2>
-		<div class="tec-flex-container">
-			<article class="html">HTML</article>
-			<article class="css">CSS</article>
-			<article class="js">Javascript</article>
-			<article class="jquery">JQuery</article>
-			<article class="java">Java</article>
-			<article class="mysql">MySQL</article>
-		</div>
-	</section>
-	<section id="contacto" class="seccion-sec contacto">
-		<h2>CONTACTO</h2>
-	</section>
-	<footer class="flex-footer">
-		<p>&copy;2017 Martín Santi, Todos los derechos reservados</p>
-		<div>
-			<a href="#" class="red-social-link">
-				<!--<img src="images/linkedin.png" alt="LinkedIn" class="red-social-icon"/>-->
-				<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-			</a>
-			<a href="#" class="red-social-link">
-				<!--<img src="images/github.png" alt="GitHub" class="red-social-icon"/>-->
-				<i class="fa fa-github" aria-hidden="true"></i>
-			</a>
-			<a href="#" class="red-social-link">
-				<!--<img src="images/twitter.png" alt="Twitter" class="red-social-icon"/>-->
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-			</a>
-		</div>
-	</footer>
-</body>
+		<header id="sobreMi" class="principal">
+			<div class="container-fluid">
+				<div class="row row-flex">
+					<h1 class="col-md-12">Martín Santi</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<img src="images/sobremi.jpg" id="img-principal" class="img-circle" alt="imagen sobre mi"/>
+					</div>
+				</div>
+				<div class="row texto-bienvenida">
+					<div class="col-md-12">
+						<p>Hey, Hola!</p>
+						<br>
+						<p>Soy Martín, desarrollador y diseñador web y te doy la bienvenida a mi portfolio</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="tecnologias" class="seccion-sec container-fluid">
+			<div class="row">
+				<h2 class="col-md-12">TECNOLOGIAS</h2>
+			</div>
+		</section>
+		<footer class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<p>&copy;2017 Martín Santi, Todos los derechos reservados</p>
+					<div>
+						<a href="#" class="red-social-link">
+							<!--<img src="images/linkedin.png" alt="LinkedIn" class="red-social-icon"/>-->
+							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+						</a>
+						<a href="#" class="red-social-link">
+							<!--<img src="images/github.png" alt="GitHub" class="red-social-icon"/>-->
+							<i class="fa fa-github" aria-hidden="true"></i>
+						</a>
+						<a href="#" class="red-social-link">
+							<!--<img src="images/twitter.png" alt="Twitter" class="red-social-icon"/>-->
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="vendor/js/jquery-3.2.1.js"></script>
+		<script src="vendor/js/bootstrap.js"></script>
+	</body>
 </html>
