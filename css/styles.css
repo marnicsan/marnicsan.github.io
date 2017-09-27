@@ -13,6 +13,11 @@
 	src: url("fonts/QuattrocentoSans.ttf");
 }
 
+html{
+    width: 100%;
+    height: 100%;
+}
+
 body{
 	font-family: QuattrocentoSans,sans-serif;
 	font-size: 17px;
@@ -101,15 +106,36 @@ ul.nav .links a:hover{
 	}
 }
 
-.titulo-seccion{
-	font-weight: bolder;
-	letter-spacing: 3px;
+.secciones{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.secciones h2{
+	font-weight: 900;
+	letter-spacing: 2px;
 	font-size:1.75em;
-	padding:25px;
+	padding:15px;
 	color: tomato;
 	letter-spacing: 3px;
-	text-transform: uppercase;
-	text-shadow: 3px 3px 3px #F15025;
+	border-left: solid 5px #F15025;
+}
+
+.secciones .clientes-text p{
+	padding: 25px;
+	font-size: 1.15em;
+	letter-spacing: 1.1px;
+	border-right: dashed 1px tomato;
+	
+}
+
+{
+	margin-right:5px;
+}
+
+.carousel .carousel-control {
+	color:#333;
+	background:none;
 }
 
 footer{
@@ -144,7 +170,6 @@ footer{
 
 .footer-container a:hover{
 	transform: scale(1.4) rotate(360deg);
-
 	background: tomato;
 	color:silver;
 	border-color:#F15025;
