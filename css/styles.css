@@ -121,6 +121,20 @@ ul.nav .links a:hover{
 	border-left: solid 5px #F15025;
 }
 
+.tecnologias-item{
+	padding:20px;
+}
+
+.tec-item-wrapper{
+	width:50%;
+	height:50%;
+	border-bottom: solid 3px #fff;
+}
+
+.tec-item-wrapper:hover{
+	border-bottom: solid 3px #333;
+}
+
 .secciones .clientes-text p{
 	padding: 25px;
 	font-size: 1.15em;
@@ -129,13 +143,29 @@ ul.nav .links a:hover{
 	
 }
 
-{
-	margin-right:5px;
+.client-descp{
+	text-align:center;
 }
 
 .carousel .carousel-control {
 	color:#333;
 	background:none;
+}
+
+form{
+	padding:15px;
+}
+
+form .form-group{
+	border: solid 1px #F15025;
+}
+
+form .form-group input{
+	color: tomato;
+}
+
+form .form-group textarea{
+	color: tomato;
 }
 
 footer{
