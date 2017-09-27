@@ -2,7 +2,9 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mi Portfolio</title>
+		<link href="css/reset.css" rel="stylesheet">
 		<link href="vendor/css/font-awesome.css" rel="stylesheet">
 		<link href="vendor/css/bootstrap.css" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet">
@@ -23,7 +25,7 @@
 			    <!-- Collect the nav links, forms, and other content for toggling -->
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			    	<ul class="nav navbar-nav navbar-right">
-			        	<li class="links"><a href="#sobreMi">Sobre mí</a></li>
+			        	<li class="links"><a href="#sobreMi">Inicio</a></li>
 					    <li class="links"><a href="#tecnologias">Proyectos</a></li>
 					    <li class="links"><a href="#proyectos">Clientes</a></li>
 					    <li class="links"><a href="#contacto">Contacto</a></li>
@@ -33,44 +35,42 @@
 		</nav>
 		<header id="sobreMi" class="principal">
 			<div class="container-fluid">
-				<div class="row row-flex">
+				<div class="row">
 					<h1 class="col-md-12">Martín Santi</h1>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12 img-principal-container">
 						<img src="images/sobremi.jpg" id="img-principal" class="img-circle" alt="imagen sobre mi"/>
 					</div>
 				</div>
-				<div class="row texto-bienvenida">
+				<div class="row">
 					<div class="col-md-12">
-						<p>Hey, Hola!</p>
-						<br>
-						<p>Soy Martín, desarrollador y diseñador web y te doy la bienvenida a mi portfolio</p>
+						<p class="bienvenida-descp">
+							> Diseñador y Desarrollador Web. <br>
+							> Te doy la bienvenida a mi portfolio<span class="blink">_</span>
+						</p>
 					</div>
 				</div>
 			</div>
 		</header>
-		<section id="tecnologias" class="seccion-sec container-fluid">
-			<div class="row">
-				<h2 class="col-md-12">TECNOLOGIAS</h2>
-			</div>
-		</section>
-		<footer class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<p>&copy;2017 Martín Santi, Todos los derechos reservados</p>
-					<div>
-						<a href="#" class="red-social-link">
-							<!--<img src="images/linkedin.png" alt="LinkedIn" class="red-social-icon"/>-->
-							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+		<footer>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 footer-container">
+						<p>&copy; MS - Design & Development 2017. Todos los Derechos Reservados</p>
+					</div>
+					<div class="col-md-6 footer-container">
+						<a href="#">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
 						</a>
-						<a href="#" class="red-social-link">
-							<!--<img src="images/github.png" alt="GitHub" class="red-social-icon"/>-->
+						<a href="#">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+						<a href="#">
 							<i class="fa fa-github" aria-hidden="true"></i>
 						</a>
-						<a href="#" class="red-social-link">
-							<!--<img src="images/twitter.png" alt="Twitter" class="red-social-icon"/>-->
-							<i class="fa fa-twitter" aria-hidden="true"></i>
+						<a href="#">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
 						</a>
 					</div>
 				</div>

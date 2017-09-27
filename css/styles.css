@@ -1,5 +1,22 @@
+@font-face{
+	font-family: consola;
+	src: url("fonts/Inconsolata.ttf");
+}
+
+@font-face{
+	font-family: Cantarell;
+	src: url("fonts/Cantarell.ttf");
+}
+
+@font-face{
+	font-family: QuattrocentoSans;
+	src: url("fonts/QuattrocentoSans.ttf");
+}
+
 body{
-	font-family: sans-serif;
+	font-family: QuattrocentoSans,sans-serif;
+	font-size: 17px;
+	color: tomato;
 }
 
 .mi-navbar{
@@ -11,7 +28,6 @@ body{
 a.navbar-brand.main-title{
 	text-decoration:none;
  	font-weight: bold;
- 	color: tomato;
 }
 
 a.navbar-brand.main-title:hover{
@@ -29,35 +45,107 @@ ul.nav .links a:hover{
 }
 
 .principal{
-	padding:70px;
-	text-align:center;
+	padding-top:40px;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	background: linear-gradient(to right,#333,#222);
+	background: url("../images/fondo.jpg") no-repeat center center scroll;
+	background-size: cover;
+	color:#fff;
+}
+
+.principal .row{
+	text-align: center; 
 }
 
 .principal h1{
-	font-size: 3em;
-	margin-bottom:35px;
-	letter-spacing:5px;
-	font-weight:bold; 
+	font-size: 3.5em;
+	letter-spacing:10px;
+	font-family: Cantarell,sans-serif;
+	text-shadow: 3px 3px 3px tomato;
+	padding:35px;
+}
+
+.img-principal-container{
+	text-align: center;
 }
 
 #img-principal{
-	width:25%;
+	width:20rem;
 	border: 5px solid tomato;
+	display:inline;
+	margin: 0 auto;
 }
 
-.texto-bienvenida{
-	margin-top:25px;
+.bienvenida-descp{
+	padding:35px;
+	font-family:consola,sans-serif;
+	font-size:1.75em;
+	font-weight: bolder;
+	text-align: justify;
+	text-align: center;
+	/*color:#ffbf00;
+	text-shadow: 1px 1px 20px #ffff55;*/
+	color: rgba(128, 255, 128, 0.8);
+  	text-shadow: 0 0 16px rgba(51, 255, 51, 1);
 }
 
-.seccion-sec{
-	margin-top: 15px;
+.blink{
+	animation: blink 1s linear infinite;
 }
 
-.seccion-sec h2{
-	font-size:1.3em;
-	padding:15px;
-	max-height:10%;
-	color: #FDEEF4;
-	background:linear-gradient(tomato,red);
+@keyframes blink {  
+	50% { 
+		opacity: 0; 
+	}
+}
+
+.titulo-seccion{
+	font-weight: bolder;
 	letter-spacing: 3px;
+	font-size:1.75em;
+	padding:25px;
+	color: tomato;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px #F15025;
+}
+
+footer{
+	font-weight: bold;
+	font-size:1em;
+	padding:15px;
+	background: linear-gradient(silver,#FDEEF4);
+	border-top: 2px solid tomato;
+}
+
+.footer-container{
+	display: flex;
+	justify-content: center;
+}
+
+.footer-container p{
+	margin:0;
+}
+
+.footer-container a{
+	display:inline-block;
+	margin-left:15px;
+	height:40px;
+	width:40px;
+	border:solid 2px tomato;
+	border-radius:50%;
+	color: tomato;
+	text-align:center;
+	line-height: 40px;
+	transition: all linear 0.5s;
+}
+
+.footer-container a:hover{
+	transform: scale(1.4) rotate(360deg);
+
+	background: tomato;
+	color:silver;
+	border-color:#F15025;
 }
