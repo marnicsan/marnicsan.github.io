@@ -119,6 +119,27 @@ ul.nav .links a:hover{
 	color: tomato;
 	letter-spacing: 3px;
 	border-left: solid 5px #F15025;
+	margin-bottom:20px;
+}
+
+.frontend{
+	background: linear-gradient(#01A9DB,#2ECCFA);
+}
+
+.backend{
+	background: linear-gradient(#FE9A2E,#FAAC58);
+}
+
+h3{
+	color:#fff;
+	font-weight:900;
+	letter-spacing: 2px;
+	text-align:center;
+}
+
+.serv-descp{
+	color:#fff;
+	text-align: justify;
 }
 
 .tecnologias-item{
@@ -135,12 +156,50 @@ ul.nav .links a:hover{
 	border-bottom: solid 3px #333;
 }
 
+.proyecto-link{
+	width:55%;
+	height:250px;
+	padding:15px;
+	color:silver;
+	text-align: center;
+}
+
+.proyecto-link:hover{
+	color:silver;
+	text-decoration: none;
+}
+
+.proyecto-link:visited{
+	color:silver;
+	text-decoration: none;
+}
+
+.proyecto-link:link{
+	color:silver;
+	text-decoration: none;
+}
+
+.sgc{
+	background: linear-gradient(#6E75A8,#223843);
+}
+
+.mcye{
+	background: linear-gradient(#2CEA53,#299F12);	
+}
+
+.icarta{
+	background: linear-gradient(#FF3C38,#C5283D);	
+}
+
 .secciones .clientes-text p{
 	padding: 25px;
 	font-size: 1.15em;
 	letter-spacing: 1.1px;
 	border-right: dashed 1px tomato;
-	
+}
+
+.modal-title{
+	font-weight: bolder;
 }
 
 .client-descp{
@@ -150,6 +209,14 @@ ul.nav .links a:hover{
 .carousel .carousel-control {
 	color:#333;
 	background:none;
+}
+
+.modal-detalle{
+	margin-top: 15px;
+}
+
+.modal-detalle ul{
+	padding-left: 15px;
 }
 
 form{
