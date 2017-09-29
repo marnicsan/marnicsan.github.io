@@ -65,7 +65,7 @@ ul.nav .links a:hover{
 }
 
 .principal h1{
-	font-size: 3.5em;
+	font-size: 3.2em;
 	letter-spacing:10px;
 	font-family: Cantarell,sans-serif;
 	text-shadow: 3px 3px 3px tomato;
@@ -77,7 +77,7 @@ ul.nav .links a:hover{
 }
 
 #img-principal{
-	width:20rem;
+	width:18rem;
 	border: 5px solid tomato;
 	display:inline;
 	margin: 0 auto;
