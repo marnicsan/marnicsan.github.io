@@ -60,6 +60,24 @@ ul.nav .links a:hover{
 	color:#fff;
 }
 
+@media screen 
+  and (min-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  	.principal{
+  		height:100vh;
+  	}
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  	.principal{
+  		height:100vh;
+  	}
+}
+
 .principal .row{
 	text-align: center; 
 }
